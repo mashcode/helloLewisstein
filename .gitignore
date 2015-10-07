@@ -1,0 +1,79 @@
+# .gitignore for jekyllized projects
+lstein_site_info
+photo index page.jpg
+homepage_mockup.jpg
+gulpfile.babel.js
+
+# Ignore hidden folders
+# This takes care of .tmp, .sass-cache, and many others
+.*/
+
+# OSX
+._*
+.AppleDouble
+.DS_Store
+.localized
+.LSOverride
+.Spotlight-V100
+.Trashes
+Icon
+
+# Windows
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+
+# Linux
+*~
+
+# Tags
+# Ignore tags created by etags and ctags
+TAGS
+tags
+
+# Always-ignore files and folders #
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.swn
+*.swo
+*.swp
+._*
+*~
+*.rtf
+
+# Ignore packages #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Packages
+node_modules/*
+.tmp
+test/
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+*.sublime-projectcompletions
+
+app/_bower_components
+bower_components
+node_modules
+
+# Output folders
+serve
+site
+# dist
+app
+
+# hide the AWS and Rsync credentials file
+aws-credentials.json
+rsync-credentials.json
