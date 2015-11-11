@@ -1,2 +1,0 @@
-# helloLewisstein
-Lewis Stein
